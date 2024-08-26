@@ -11,6 +11,9 @@ def sort_files(dir):
     Use forward slashes "/" instead of backslashes "\". The path must end with a slash.
     Example: r"C:/Users/admin/OneDrive/Documents/Python_practice/Project 3/"
     '''
+    import os
+    import shutil
+    
     # Define file type dictionary
     file_types = {
         'Image/': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.xcf', '.psd'],
